@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="extra text"
+    tools:context=".splash">
+
+
+    <ImageView
+        android:id="@+id/imageVie2"
+        android:layout_width="215dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Jc Telecom"
+        android:textColor="@color/btn1"
+        android:textSize="25dp"
+        android:textStyle="bold|normal" />
+
+
+
+
+</LinearLayout>

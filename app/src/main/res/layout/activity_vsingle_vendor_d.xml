@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="extra tecxt"
+    tools:context=".v_single_vendor_d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/arow1"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/backarrow"
+            android:backgroundTint="@color/bg1"/>
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="35dp" />
+
+        <ImageButton
+            android:id="@+id/drag1"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/drag"
+            android:backgroundTint="@color/bg1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageVie2"
+            android:layout_width="209dp"
+            android:layout_height="155dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:src="@drawable/userprofile" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/vname"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Vendor Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/human1"/>
+
+        <EditText
+            android:id="@+id/oname"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Owner Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/email"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Email Id" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/call"/>
+
+        <EditText
+            android:id="@+id/pnum"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Phone Number" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/address2"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Address" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/gst"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="GST No"
+            android:drawableRight="@drawable/wrong"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/a_card"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Aadhar Card Number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/grayhome" />
+
+        <ImageButton
+            android:id="@+id/bluehome"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bg1"
+            android:src="@drawable/bluehome" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="90dp"
+            android:src="@drawable/grayadd" />
+
+        <ImageButton
+            android:id="@+id/blueadd"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bg1"
+            android:src="@drawable/blueadd" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="70dp"
+            android:src="@drawable/graypeople" />
+
+        <ImageButton
+            android:id="@+id/bluepeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bg1"
+            android:src="@drawable/bluepeople" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

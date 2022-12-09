@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:ignore="extra text"
+    tools:context=".filerepairdetails">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="364dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Fill Repair Device Details"
+                android:textSize="20dp"
+                android:textStyle="bold|normal" />
+
+            <ImageButton
+                android:id="@+id/cross1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cross"
+                android:backgroundTint="@color/bg1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/pname3"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Product Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/phname"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Product Holder Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/category2"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Category ID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/pb1"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Problem" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/pnum3"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Phone No" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/address3"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Address" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/save4"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="save"
+        android:textSize="20dp"
+        android:textStyle="bold|normal" />
+
+</LinearLayout>
+
+
+

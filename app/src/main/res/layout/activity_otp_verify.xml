@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="extra text"
+    tools:context=".otp_verify">
+
+
+
+    <ImageView
+        android:id="@+id/imageVie2"
+        android:layout_width="215dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:src="@drawable/mail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="OTP Verification"
+        android:textColor="@color/text"
+        android:textSize="25dp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="OTP has been sent on Email ID" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please enter OTP" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp" />
+
+
+    <Button
+        android:id="@+id/otp1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/btn"
+        android:gravity="center"
+        android:text="VERIFY"
+        android:textSize="18dp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Didn't recieve OTP?" />
+
+
+</LinearLayout>

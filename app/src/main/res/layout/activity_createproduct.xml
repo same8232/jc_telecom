@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:ignore="extra text"
+    tools:context=".createproduct">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/edit1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/edit" />
+
+        <TextView
+            android:layout_width="328dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="Create Product"
+            android:textSize="20dp"
+            android:textStyle="bold|normal" />
+
+        <ImageButton
+            android:id="@+id/cross1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/cross" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/pname1"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Product Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/category1"
+            android:layout_width="342dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:autofillHints="Category ID"
+            android:contextClickable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/quantity1"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Quantity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/price1"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Price" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/btn"
+        android:gravity="center"
+        android:text="save"
+        android:textSize="20dp"
+        android:textStyle="bold|normal" />
+
+
+</LinearLayout>
